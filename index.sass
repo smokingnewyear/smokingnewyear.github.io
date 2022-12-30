@@ -1,0 +1,33 @@
+#button
+  border: 1px solid #000
+  width: 200px
+  height: 50px
+  cursor: pointer
+
+.wrapp, .wrapp2
+  display: flex
+  text-transform: capitalize
+  font: 400 30px Sans-serif
+  font-family: 'Rubik Gemstones', cursive
+  transform-origin: bottom center
+  height: 400px
+  margin: 0 auto
+  width: 50%
+  position: relative
+  letter-spacing: -20px
+  .letter
+    transition: 1s
+    position: absolute
+    height: 600px
+    left: 200px
+
+$j: (1: 7, 2: 6, 3: 4, 4: 12, 5: 3, 6: 10, 7: 13, 8: 8, 9: 1, 10: 5, 11: 9, 12: 2, 13: 11, 14: 14)
+
+@each $i1, $i2 in $j
+  .letter-#{$i1}
+    transform: rotate(($i1 - 7.5) * 6deg)
+    color: hsl($i1*20, 70%, 50%)
+
+  .wrapp2
+    .letter-#{$i1}
+      transform: rotate(($i2 - 7.5) * 6deg)

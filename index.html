@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>happy new year</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Gemstones&display=swap" rel="stylesheet">
+    <link href="/index.css" rel="stylesheet">
+</head>
+<body>
+<button id="button">make it better</button>
+<div class="wrapp">
+    <div class="letter letter-1">с</div><!-- г -->
+    <div class="letter letter-2">&nbsp;</div><!-- о -->
+    <div class="letter letter-3">н</div><!-- в -->
+    <div class="letter letter-4">о</div><!-- н -->
+    <div class="letter letter-5">в</div><!-- о -->
+    <div class="letter letter-6">ы</div><!--  -->
+    <div class="letter letter-7">м</div><!-- с -->
+    <div class="letter letter-8">&nbsp;</div><!--  -->
+    <div class="letter letter-9">г</div><!-- д -->
+    <div class="letter letter-10">о</div><!-- ы -->
+    <div class="letter letter-11">д</div><!-- м -->
+    <div class="letter letter-12">о</div><!-- о -->
+    <div class="letter letter-13">м</div><!-- м -->
+    <div class="letter letter-14">!</div><!-- ! -->
+</div>
+<script>
+    button.addEventListener('click', () => {
+        const wrapp = document.querySelector('.wrapp');
+        console.log(wrapp.classlist)
+        if (wrapp.classList.contains('wrapp2')) {
+            wrapp.classList.remove('wrapp2');
+        } else {
+            wrapp.classList.add('wrapp2');
+        }
+
+    })
+</script>
+</body>
+</html>
