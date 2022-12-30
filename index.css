@@ -1,26 +1,28 @@
 #button {
-  border: 1px solid #000;
+  border: 1px solid transparent;
   width: 200px;
   height: 50px;
   cursor: pointer;
+  background: linear-gradient(217deg, rgba(255, 0, 0, 0.8), rgba(255, 0, 0, 0) 70.71%), linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%), linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  color: #fff;
+  font: 600 20px Arial;
+  text-shadow: 1px 1px 2px #000;
 }
 
 .wrapp, .wrapp2 {
   display: flex;
   text-transform: capitalize;
-  font: 400 30px Sans-serif;
+  font: 400 50px Sans-serif;
   font-family: "Rubik Gemstones", cursive;
   transform-origin: bottom center;
-  height: 400px;
   margin: 0 auto;
   width: 50%;
   position: relative;
-  letter-spacing: -20px;
 }
 .wrapp .letter, .wrapp2 .letter {
   transition: 1s;
   position: absolute;
-  height: 600px;
+  height: 950px;
   left: 200px;
 }
 
