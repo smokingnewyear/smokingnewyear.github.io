@@ -1,0 +1,153 @@
+#button {
+  border: 1px solid #000;
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.wrapp, .wrapp2 {
+  display: flex;
+  text-transform: capitalize;
+  font: 400 30px Sans-serif;
+  font-family: "Rubik Gemstones", cursive;
+  transform-origin: bottom center;
+  height: 400px;
+  margin: 0 auto;
+  width: 50%;
+  position: relative;
+  letter-spacing: -20px;
+}
+.wrapp .letter, .wrapp2 .letter {
+  transition: 1s;
+  position: absolute;
+  height: 600px;
+  left: 200px;
+}
+
+.letter-1 {
+  transform: rotate(-39deg);
+  color: hsl(20deg, 70%, 50%);
+}
+
+.wrapp2 .letter-1 {
+  transform: rotate(-3deg);
+}
+
+.letter-2 {
+  transform: rotate(-33deg);
+  color: hsl(40deg, 70%, 50%);
+}
+
+.wrapp2 .letter-2 {
+  transform: rotate(-9deg);
+}
+
+.letter-3 {
+  transform: rotate(-27deg);
+  color: hsl(60deg, 70%, 50%);
+}
+
+.wrapp2 .letter-3 {
+  transform: rotate(-21deg);
+}
+
+.letter-4 {
+  transform: rotate(-21deg);
+  color: hsl(80deg, 70%, 50%);
+}
+
+.wrapp2 .letter-4 {
+  transform: rotate(27deg);
+}
+
+.letter-5 {
+  transform: rotate(-15deg);
+  color: hsl(100deg, 70%, 50%);
+}
+
+.wrapp2 .letter-5 {
+  transform: rotate(-27deg);
+}
+
+.letter-6 {
+  transform: rotate(-9deg);
+  color: hsl(120deg, 70%, 50%);
+}
+
+.wrapp2 .letter-6 {
+  transform: rotate(15deg);
+}
+
+.letter-7 {
+  transform: rotate(-3deg);
+  color: hsl(140deg, 70%, 50%);
+}
+
+.wrapp2 .letter-7 {
+  transform: rotate(33deg);
+}
+
+.letter-8 {
+  transform: rotate(3deg);
+  color: hsl(160deg, 70%, 50%);
+}
+
+.wrapp2 .letter-8 {
+  transform: rotate(3deg);
+}
+
+.letter-9 {
+  transform: rotate(9deg);
+  color: hsl(180deg, 70%, 50%);
+}
+
+.wrapp2 .letter-9 {
+  transform: rotate(-39deg);
+}
+
+.letter-10 {
+  transform: rotate(15deg);
+  color: hsl(200deg, 70%, 50%);
+}
+
+.wrapp2 .letter-10 {
+  transform: rotate(-15deg);
+}
+
+.letter-11 {
+  transform: rotate(21deg);
+  color: hsl(220deg, 70%, 50%);
+}
+
+.wrapp2 .letter-11 {
+  transform: rotate(9deg);
+}
+
+.letter-12 {
+  transform: rotate(27deg);
+  color: hsl(240deg, 70%, 50%);
+}
+
+.wrapp2 .letter-12 {
+  transform: rotate(-33deg);
+}
+
+.letter-13 {
+  transform: rotate(33deg);
+  color: hsl(260deg, 70%, 50%);
+}
+
+.wrapp2 .letter-13 {
+  transform: rotate(21deg);
+}
+
+.letter-14 {
+  transform: rotate(39deg);
+  color: hsl(280deg, 70%, 50%);
+}
+
+.wrapp2 .letter-14 {
+  transform: rotate(39deg);
+}
+
+/*# sourceMappingURL=index.css.map */
